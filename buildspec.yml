@@ -5,3 +5,5 @@ phases:
       - npm install
       - npm run build:prod
       - aws s3 sync dist/lodewijkwensveen s3://lodewijkwensveen --delete
+      - aws s3 cp dist/lodewijkwensveen/index.html s3://lodewijkwensveen/index.html --metadata-directive REPLACE --cache-control must-revalidate,max-age=901 --content-type text/html
+
