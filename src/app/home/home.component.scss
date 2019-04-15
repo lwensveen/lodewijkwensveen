@@ -1,0 +1,31 @@
+.code-card {
+  width: 400px;
+}
+
+.main {
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.mat-card {
+    margin: 20px 0;
+
+    .mat-card-avatar {
+        height: 40px;
+        width: 40px;
+        border-radius: 0;
+        object-fit: contain;
+        flex-shrink: 0;
+    }
+
+    .mat-list {
+        .mat-list-item {
+            font-size: 14px;
+        }
+    }
+
+    .mat-card-content {
+        margin-top: 16px;
+    }
+}
+
