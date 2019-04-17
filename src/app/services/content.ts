@@ -10,3 +10,9 @@ export class Content {
 export class Bulletpoints {
     point: string
 }
+
+export class Clients {
+    id: number;
+    url: string;
+    name: string;
+}

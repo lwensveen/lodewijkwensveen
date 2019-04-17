@@ -11,6 +11,10 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { HttpClientModule } from "@angular/common/http";
 import { MatButtonModule, MatCardModule, MatIconModule, MatListModule, MatMenuModule } from "@angular/material";
 import { FlexLayoutModule } from "@angular/flex-layout";
+import { IntroComponent } from './home/intro/intro.component';
+import { LanguagesComponent } from './home/languages/languages.component';
+import { ClientsComponent } from './home/clients/clients.component';
+import { ContactComponent } from './home/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     HomeComponent,
     PageNotFoundComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    IntroComponent,
+    LanguagesComponent,
+    ClientsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Observable, of } from "rxjs";
 import { HttpClient } from "@angular/common/http";
 import { Content } from "./content";
+import { Clients } from "./content";
 
 @Injectable({
     providedIn: 'root'
@@ -13,6 +14,10 @@ export class ContentService {
 
     getContent(): Observable<Content[]> {
         return of(CONTENT);
+    }
+
+    getClients(): Observable<Clients[]> {
+        return of(CLIENTS);
     }
 
     private handleError<T>(operation = 'operation', result?: T) {
@@ -30,6 +35,52 @@ export class ContentService {
     }
 
 }
+
+export const CLIENTS: Clients[] = [
+    {
+        id: 1,
+        url: '/assets/clients/sanoma.png',
+        name: 'Sanoma'
+    },
+    {
+        id: 2,
+        url: '/assets/clients/mn.jpg',
+        name: 'MN'
+
+    },
+    {
+        id: 3,
+        url: '/assets/clients/vodafone.svg',
+        name: 'Vodafone'
+    },
+    {
+        id: 4,
+        url: '/assets/clients/postnl.jpg',
+        name: 'Postnl'
+    },
+    {
+        id: 5,
+        url: '/assets/clients/sanoma.png',
+        name: 'Sanoma'
+    },
+    {
+        id: 6,
+        url: '/assets/clients/mn.jpg',
+        name: 'MN'
+
+    },
+    {
+        id: 7,
+        url: '/assets/clients/vodafone.svg',
+        name: 'Vodafone'
+    },
+    {
+        id: 8,
+        url: '/assets/clients/postnl.jpg',
+        name: 'Postnl'
+    },
+];
+
 
 export const CONTENT: Content[] = [
     {
