@@ -1,11 +1,11 @@
-<div fxLayout="row wrap">
-    <mat-card fxFlex>
+<div fxLayout="row wrap" fxLayoutAlign="center">
+    <mat-card>
         <mat-card-title>Companies I worked for or with:</mat-card-title>
         <mat-divider [inset]="true"></mat-divider>
 
         <div fxLayout="row wrap" fxLayoutAlign="start">
             <div class="img-holder" *ngFor="let client of $clients | async;">
-                <img src="{{client.url}}" alt="{{client.name}}"/>
+                <img src="{{client.url}}" alt="{{client.name}}" title="{{client.name}}"/>
                 <div class="divider-holder" fxFlex>
                     <mat-divider [vertical]="true"></mat-divider>
                 </div>
