@@ -8,7 +8,7 @@ export class Content {
 }
 
 export class Bulletpoints {
-    point: string
+    point: string;
 }
 
 export class Clients {
