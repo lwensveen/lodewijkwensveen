@@ -1,0 +1,22 @@
+.img-holder {
+    margin-top: 20px;
+
+    &:nth-of-type(1) {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+
+    .divider-holder {
+        padding: 0 20px;
+
+        .mat-divider {
+            height: 100%;
+        }
+    }
+
+
+    img {
+        height: 50px;
+    }
+}

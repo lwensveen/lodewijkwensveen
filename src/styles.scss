@@ -4,3 +4,7 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 :focus {outline:none !important;}
+
+html, body {
+    height: 100%;
+}

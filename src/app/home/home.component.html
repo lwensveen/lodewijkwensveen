@@ -1,31 +1,9 @@
-<div class="main">
-    <div fxLayout="row wrap" fxLayoutAlign="space-around">
-        <mat-card class="code-card" fxLayout="column" *ngFor="let content of $content | async">
-            <mat-card-header>
-                <img mat-card-avatar src="{{ content.avatar }}">
-                <mat-card-title>{{ content.name}}</mat-card-title>
-                <mat-card-subtitle>{{content.subtitle }}</mat-card-subtitle>
-            </mat-card-header>
+<div class="main1">
+    <div class="main">
+        <app-intro></app-intro>
 
-            <mat-divider [inset]="true"></mat-divider>
+        <app-languages></app-languages>
 
-            <mat-list fxFlex>
-                <mat-list-item *ngFor="let bulletpoints of content.bulletpoints">{{bulletpoints.point}}</mat-list-item>
-            </mat-list>
-
-            <!--<mat-card-content>-->
-            <!--<p>-->
-            <!--The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.-->
-            <!--A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally-->
-            <!--bred for hunting.-->
-            <!--</p>-->
-            <!--</mat-card-content>-->
-
-            <mat-card-actions fxFlexAlign="end">
-                <a mat-button mat-raised-button color="primary" fxFlexAlign="end"
-                   href="http://{{content.name | lowercase}}.lodewijkwensveen.nl">Go</a>
-            </mat-card-actions>
-
-        </mat-card>
+        <app-clients></app-clients>
     </div>
 </div>
