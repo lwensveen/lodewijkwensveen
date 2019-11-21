@@ -5,6 +5,7 @@
     <div class="client-images">
         <div class="img-holder" *ngFor="let client of $clients | async;">
             <img src="{{client.url}}" alt="{{client.name}}" title="{{client.name}}"/>
+            <mat-divider vertical="true"></mat-divider>
         </div>
     </div>
 </mat-card>
