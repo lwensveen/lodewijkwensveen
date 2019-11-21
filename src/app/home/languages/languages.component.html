@@ -1,14 +1,14 @@
-<div class="languages" fxLayout="row wrap" fxLayoutAlign="space-around">
-    <mat-card fxLayout="column" *ngFor="let content of $content | async; trackBy: byId">
+<div class="languages">
+    <mat-card *ngFor="let content of $content | async; trackBy: byId">
         <mat-card-header>
-            <img mat-card-avatar src="{{ content.avatar }}">
+            <img mat-card-avatar src="{{ content.avatar }}" alt="Avatar">
             <mat-card-title>{{ content.name}}</mat-card-title>
             <mat-card-subtitle>{{content.subtitle }}</mat-card-subtitle>
         </mat-card-header>
 
         <mat-divider [inset]="true"></mat-divider>
 
-        <mat-list fxFlex>
+        <mat-list>
             <mat-list-item *ngFor="let bulletpoints of content.bulletpoints">{{bulletpoints.point}}</mat-list-item>
         </mat-list>
 

@@ -96,7 +96,7 @@ export const CONTENT: Content[] = [
         id: 1,
         name: 'JavaScript',
         subtitle: 'Senior - ES5 - ES6',
-        avatar: '/assets/javascript.svg',
+        avatar: '/assets/images/javascript.svg',
         bulletpoints: [
             {
                 point: 'Functional Programming'
@@ -114,7 +114,7 @@ export const CONTENT: Content[] = [
         id: 2,
         name: 'Angular',
         subtitle: 'Senior - 2/4/6/7 & JS',
-        avatar: '/assets/angular.svg',
+        avatar: '/assets/images/angular.svg',
         bulletpoints: [
             {
                 point: 'NgRx'
@@ -132,7 +132,7 @@ export const CONTENT: Content[] = [
         id: 3,
         name: 'React',
         subtitle: 'Junior',
-        avatar: '/assets/react.svg',
+        avatar: '/assets/images/react.svg',
         bulletpoints: [
             {
                 point: 'Redux'
@@ -144,7 +144,7 @@ export const CONTENT: Content[] = [
         id: 4,
         name: 'AWS',
         subtitle: 'Medior',
-        avatar: '/assets/aws.svg',
+        avatar: '/assets/images/aws.svg',
         bulletpoints: [
             {
                 point: 'AWS Lambda'
@@ -163,7 +163,7 @@ export const CONTENT: Content[] = [
         id: 5,
         name: 'NodeJS',
         subtitle: 'Medior',
-        avatar: '/assets/nodejs.svg',
+        avatar: '/assets/images/nodejs.svg',
         bulletpoints: [
             {
                 point: 'Express'
