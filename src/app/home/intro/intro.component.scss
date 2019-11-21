@@ -1,7 +1,14 @@
 .mat-card-content {
+    display: flex;
+    flex-direction: row;
     margin-top: 16px;
-}
-.profile-picture {
-    background-image: url("https://media.licdn.com/dms/image/C5603AQHzvLJn9hgtKw/profile-displayphoto-shrink_800_800/0?e=1561593600&v=beta&t=H0N2LaUyuW3IPTu7Jzuh31EJsQUnfXOHPxFmwkNGWos");
-    background-repeat: no-repeat;
+
+    img {
+        margin-top: 20px;
+        max-height: 200px;
+    }
+
+    .text {
+        padding-left: 20px;
+    }
 }

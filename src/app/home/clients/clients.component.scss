@@ -1,22 +1,22 @@
-.img-holder {
-    margin-top: 20px;
+.clients {
 
-    &:nth-of-type(1) {
-        padding-left: 0;
-        margin-left: 0;
-    }
+    .client-images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
+        .img-holder {
+            margin-top: 10px;
 
-    .divider-holder {
-        padding: 0 20px;
+            &:nth-of-type(1) {
+                margin-left: 0;
+                padding-left: 0;
+            }
 
-        .mat-divider {
-            height: 100%;
+            img {
+                height: 50px;
+            }
         }
-    }
-
-
-    img {
-        height: 50px;
     }
 }
