@@ -113,7 +113,7 @@ export const CONTENT: Content[] = [
     {
         id: 2,
         name: 'Angular',
-        subtitle: 'Senior - 2/4/6/7 & JS',
+        subtitle: 'Senior - 2/4/6/7/8/9 & JS',
         avatar: '/assets/images/angular.svg',
         bulletpoints: [
             {
