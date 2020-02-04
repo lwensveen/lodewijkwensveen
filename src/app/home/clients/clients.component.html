@@ -3,9 +3,9 @@
     <mat-divider [inset]="true"></mat-divider>
 
     <div class="client-images">
-        <div class="img-holder" *ngFor="let client of $clients | async;">
+        <div class="img-holder" *ngFor="let client of $clients | async; let last=last;">
             <img src="{{client.url}}" alt="{{client.name}}" title="{{client.name}}"/>
-            <mat-divider vertical="true"></mat-divider>
+            <mat-divider *ngIf="!last" vertical="true"></mat-divider>
         </div>
     </div>
 </mat-card>
