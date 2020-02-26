@@ -88,6 +88,11 @@ export const CLIENTS: Clients[] = [
         url: '/assets/clients/lobsterink.jpg',
         name: 'LobsterInk'
     },
+    {
+        id: 11,
+        url: '/assets/clients/knmp-logo.jpg',
+        name: 'LobsterInk'
+    },
 ];
 
 
