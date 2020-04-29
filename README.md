@@ -1,3 +1,5 @@
+![Build Status](https://codebuild.eu-west-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoibUVPTWF1SDV0WVcxOHFZakNsMHR3RzBIbEhMTGh4bU1jM3EvMGp0MUdFL2hZTldXeE1KVnRWenk0NkZCR1lGTSs2ZlJGODRGbTJEMnVBZkVBRGhQN2lJPSIsIml2UGFyYW1ldGVyU3BlYyI6IjhTMGluY3JFYVBCT2NCM3QiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+
 # Lodewijkwensveen
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
