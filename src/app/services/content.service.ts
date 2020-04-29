@@ -136,7 +136,7 @@ export const CONTENT: Content[] = [
     {
         id: 3,
         name: 'React',
-        subtitle: 'Junior',
+        subtitle: 'Medior',
         avatar: '/assets/images/react.svg',
         bulletpoints: [
             {
